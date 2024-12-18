@@ -186,7 +186,7 @@ async function takeCommand(message) {
         speak(finalText);
     }
 }
-
+//spark it
 async function getWeatherInfo(location) {
     try {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(location)}&appid=${config.WEATHER_API_KEY}&units=metric`);
