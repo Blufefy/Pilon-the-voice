@@ -86,7 +86,7 @@ recognition.onresult = (event) => {
 
 btn.addEventListener('click', () => {
 
-    speak("  good i'm listening " );
+  
     recognition.start();
 });
 
